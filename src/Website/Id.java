@@ -14,6 +14,7 @@ public class Id {
 //		SeleniumManager
 		
 		
+		
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91843\\Downloads\\selenium\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
