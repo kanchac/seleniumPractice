@@ -19,6 +19,7 @@ public class Action {
 		a.moveToElement(move).build().perform();
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
 		a.moveToElement(move).contextClick().build().perform();
+		
 	}
 	
 
